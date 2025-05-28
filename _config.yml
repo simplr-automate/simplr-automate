@@ -1,9 +1,0 @@
-title: Simplr Automate
-email: simplr.automate@gmail.com
-description: >-
-  Automation for small businesses, made simple and powerful.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site
-theme: minima
-plugins:
-  - jekyll-feed
