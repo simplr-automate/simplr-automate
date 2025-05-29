@@ -4,17 +4,19 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Automation Catalog | Simplr Automate</title>
-  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/catalog.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet" />
 </head>
 <body>
   <header>
     <h1>Automation Catalog</h1>
-    <p>Explore automation services ready to deploy or in progress.</p>
+    <p>Explore automation services ready to deploy, in progress, or on the roadmap.</p>
   </header>
 
-  <div class="container">
-    <section>
-      <h2>Available Now ✅</h2>
+  <main>
+    <!-- Available Now Section -->
+    <section class="catalog-section">
+      <h2 class="section-title">Available Now ✅</h2>
       <div class="cards">
         <div class="automation-card available">
           <h3>Google Review Follow-Up</h3>
@@ -27,8 +29,9 @@
       </div>
     </section>
 
-    <section>
-      <h2>In Progress 🚧</h2>
+    <!-- In Progress Section -->
+    <section class="catalog-section">
+      <h2 class="section-title">In Progress 🚧</h2>
       <div class="cards">
         <div class="automation-card in-progress">
           <h3>Missed Call to SMS</h3>
@@ -41,8 +44,9 @@
       </div>
     </section>
 
-    <section>
-      <h2>Ideas / To Be Determined 👻</h2>
+    <!-- Ideas Section -->
+    <section class="catalog-section">
+      <h2 class="section-title">Ideas / To Be Determined 👻</h2>
       <div class="cards">
         <div class="automation-card idea">
           <h3>Referral Incentive Tracker</h3>
@@ -52,12 +56,29 @@
           <h3>Voicemail to Email</h3>
           <p>Forward voicemails with transcription to your email inbox.</p>
         </div>
+        <div class="automation-card idea">
+          <h3>Post-Service Survey</h3>
+          <p>Automatically send feedback forms after service completion.</p>
+        </div>
+        <div class="automation-card idea">
+          <h3>Birthday Campaign</h3>
+          <p>Send customers automated birthday messages with special offers.</p>
+        </div>
+        <div class="automation-card idea">
+          <h3>Customer Reactivation</h3>
+          <p>Detect inactive customers and send personalized re-engagement messages.</p>
+        </div>
+        <div class="automation-card idea">
+          <h3>Lead Warm-Up</h3>
+          <p>Send a timed sequence of emails or texts after a new lead enters your CRM.</p>
+        </div>
       </div>
     </section>
-  </div>
+  </main>
 
   <footer>
     <p>© 2025 Simplr Automate. All rights reserved.</p>
   </footer>
+
 </body>
 </html>
