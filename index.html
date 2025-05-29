@@ -4,7 +4,12 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Simplr Automate</title>
-  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/catalog.css">
+  <link rel="stylesheet" href="css/carousel.css">
+
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet" />
 </head>
 <body>
@@ -50,31 +55,28 @@
       <a href="catalog.html" class="btn-primary">See Full Catalog →</a>
     </div>
   </section>
-  
 
-  <section class="pricing">
-    <div class="container">
-      <h2>Pricing Plans</h2>
-      <div class="cards">
-        <div class="card">
-          <h3>Trial</h3>
-          <p>$0/month</p>
-          <p>Includes 3 automations</p>
-        </div>
-        <div class="card">
-          <h3>Standard</h3>
-          <p>$99/month</p>
-          <p>Up to 10 automations</p>
-        </div>
-        <div class="card">
-          <h3>Pro</h3>
-          <p>$199/month</p>
-          <p>Unlimited automations + support</p>
-        </div>
+  <section class="carousel-section">
+    <div class="carousel" id="carousel">
+      <div class="card" data-index="0">
+        <h3>Trial</h3>
+        <p>$0/month</p>
+        <p>Includes 3 automations</p>
+      </div>
+      <div class="card" data-index="1">
+        <h3>Standard</h3>
+        <p>$99/month</p>
+        <p>Up to 10 automations</p>
+      </div>
+      <div class="card" data-index="2">
+        <h3>Pro</h3>
+        <p>$199/month</p>
+        <p>Unlimited automations + support</p>
       </div>
     </div>
   </section>
-
+  
+  
   <footer>
     <div class="container">
       <p>© 2025 Simplr Automate — simplr.automate@gmail.com</p>
@@ -82,5 +84,6 @@
   </footer>
 
   <script src="js/main.js"></script>
+  
 </body>
 </html>
