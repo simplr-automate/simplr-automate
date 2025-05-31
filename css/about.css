@@ -1,0 +1,96 @@
+/* About Page Header */
+.about-header {
+    background: linear-gradient(135deg, #1e3a8a, #3b82f6);
+    color: white;
+    padding: 3rem 1rem;
+    text-align: center;
+  }
+  
+  .about-header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .about-header p {
+    font-size: 1.2rem;
+    opacity: 0.95;
+  }
+  
+  .about-content {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+    color: #1e293b;
+  }
+  
+  .about-section {
+    margin-bottom: 2rem;
+  }
+  
+  .about-section h2 {
+    font-size: 1.5rem;
+    color: #1e3a8a;
+    margin-bottom: 0.75rem;
+  }
+  
+  .about-section p, .about-section ul {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+  
+  .about-section ul {
+    padding-left: 1.25rem;
+  }
+  
+  .btn-primary {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.75rem 1.5rem;
+    background: #2563eb;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: background 0.3s ease;
+  }
+  
+  .btn-primary:hover {
+    background: #1d4ed8;
+  }
+  
+
+  /* Navigation Bar */
+.nav-bar {
+    background: #1e3a8a;
+    padding: 1rem 1.5rem;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .nav-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .nav-logo {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  .nav-links a {
+    margin-left: 2rem;
+    color: #e0e7ff;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s ease;
+  }
+  
+  .nav-links a:hover {
+    color: #93c5fd;
+  }
