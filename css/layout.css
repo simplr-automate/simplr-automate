@@ -13,11 +13,3 @@
     transform: translateY(-8px);
     box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
   }
-  
-  footer {
-    background: var(--primary);
-    color: white;
-    text-align: center;
-    padding: 2rem 0;
-  }
-  

@@ -1,4 +1,22 @@
 /* Contact Section */
+
+.contact-header {
+  text-align: center;
+  padding: 2.5rem 1rem;
+  background: linear-gradient(135deg, #1e3a8a, #3b82f6);
+  color: #ffffff;
+}
+
+.contact-header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.contact-header p {
+  font-size: 1.1rem;
+  color: #e0e7ff;
+}
+
 .contact-section {
     background: #f8fafc;
     padding: 3rem 1.5rem;
@@ -107,6 +125,15 @@
 
 .nav-links a:hover {
   color: #93c5fd;
+}
+
+footer {
+  text-align: center;
+  padding: 2rem 1rem;
+  background: #e0e7ff;
+  color: #475569;
+  font-size: 0.95rem;
+  border-top: 1px solid #c7d2fe;
 }
 
 /* Responsive */

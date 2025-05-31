@@ -7,7 +7,7 @@ body {
   }
   
   header {
-    background: linear-gradient(135deg, #007bff, #0056b3);
+    background: linear-gradient(135deg, #1e3a8a, #3b82f6);
     color: #fff;
     text-align: center;
     padding: 3rem 1rem;
@@ -70,14 +70,16 @@ body {
     font-size: 1rem;
   }
   
+  /* Footer */
   footer {
-    background: #e6f0ff;
     text-align: center;
     padding: 2rem 1rem;
-    color: #666;
-    font-size: 0.9rem;
-    border-top: 1px solid #cce0ff;
+    background: #e0e7ff;
+    color: #475569;
+    font-size: 0.95rem;
+    border-top: 1px solid #c7d2fe;
   }
+  
   
   @media (max-width: 768px) {
     header h1 {
