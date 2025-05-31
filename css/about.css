@@ -94,3 +94,13 @@
   .nav-links a:hover {
     color: #93c5fd;
   }
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 2rem 1rem;
+  background: #e0e7ff;
+  color: #475569;
+  font-size: 0.95rem;
+  border-top: 1px solid #c7d2fe;
+}
